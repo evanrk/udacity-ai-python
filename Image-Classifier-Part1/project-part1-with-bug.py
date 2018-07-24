@@ -154,6 +154,7 @@ optimizer = optim.Adam(model.classifier.parameters(), lr=0.001)
 # In[8]:
 
 
+# This is the part that does has the error:
 epochs = 3
 print_every = 40
 steps = 0
